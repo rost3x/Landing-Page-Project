@@ -1,0 +1,33 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.top-nav{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+}
+
+a.link{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 16px;
+}
+
+h3.top-nav{
+    margin: 16px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.main-container{
+    background-color: #1f2937;
+}
