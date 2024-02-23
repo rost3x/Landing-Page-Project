@@ -35,6 +35,7 @@ ul {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -58,74 +59,79 @@ ul {
     margin-left: 20px;
 }
 
-/* .main-container{
-    background-color: #1f2937;
-    display:flex;
-    flex-flow: row wrap;
-}
-
-.top-nav{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 3 0px;
-}
-
-.nav-links{
-    display: flex;
-}
-
-a.link{
-    color: #e5e7eb;
-    font-size: 18px;
-    text-decoration: none;
-    margin: 16px;
-}
-
-h3.top-nav{
-    margin: 16px;
-    color: #f9faf8;
-    font-size: 24px;
-}
-
-.main-container-leftside{
-    order:1;
-    display: flex;
-}
-
-.main-img{
-    flex:1;
-    display: flex;
-} */
-
-/* .main-container{
-    border: 2px yellow solid;
-    background-color: #1f2937;
-    color: #e5e7eb;
-    font-size: 18px;
+.header {
+    background: #1f2937;
+    min-height: 400px;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
 }
 
-.main-container-leftside{
-    border: 2px purple solid;
-    display: flex;
-    width: 500px; 
-    flex-direction: column;
-}
-
-h1{
-    margin: 0;
+.header h1 {
+    color: #f9faf8;
     font-size: 48px;
+    font-weight: 800;
+}
+
+.header p {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 550px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container img {
+    height: 200px;
+    width: 550px;
+    border: 2px solid blue;
+}
+
+.information h2 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 36px;
+    color: #1f2937;
+    font-size: 36px;
     font-weight: 900;
 }
 
-.main-img{
-    border: 2px blue solid;
-    padding: 100px 200px;
-    display: inline-flex;
-    flex-wrap: wrap;
-} */
+.information {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
 
+.box {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box img {
+    height: 175px;
+    width: 175px;
+    border: 3px #3882f6 solid;
+    border-radius: 10%;
+}
+
+.information .boxes {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 100%;
+}
